@@ -444,5 +444,4 @@ public class peanutprocess {
 		label_4.setBounds(263, 15, 367, 56);
 		frame.getContentPane().add(label_4);
 	}
-
 }
