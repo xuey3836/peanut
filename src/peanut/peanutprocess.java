@@ -93,7 +93,7 @@ public class peanutprocess {
 		frame = new JFrame();
 		//ImageIcon icon=new ImageIcon("C:\\Users\\o0\\Desktop\\hs\\peanut.jpg");
 		//frame.setIconImage(icon.getImage());
-		frame.setTitle("\u82B1\u751F\u52A0\u5DE5\u9002\u5E94\u6027\u8BC4\u4EF7");
+		frame.setTitle("\u82B1\u751F\u52A0\u5DE5\u9002\u5B9C\u6027\u8BC4\u4EF7");
 		frame.getContentPane().setForeground(Color.BLUE);
 		frame.getContentPane().setBackground(SystemColor.menu);
 		frame.setBounds(100, 100, 1000, 600);
@@ -102,91 +102,109 @@ public class peanutprocess {
 
 		
 		JTextField t1 = new JTextField();
+		t1.setText("0");
 		t1.setBounds(157, 101, 96, 27);
 		frame.getContentPane().add(t1);
 		t1.setColumns(10);
 		
 		t3 = new JTextField();
+		t3.setText("0");
 		t3.setColumns(10);
 		t3.setBounds(157, 183, 96, 27);
 		frame.getContentPane().add(t3);
 		
 		t4 = new JTextField();
+		t4.setText("0");
 		t4.setColumns(10);
 		t4.setBounds(157, 227, 96, 27);
 		frame.getContentPane().add(t4);
 		
 		t5 = new JTextField();
+		t5.setText("0");
 		t5.setColumns(10);
 		t5.setBounds(157, 269, 96, 27);
 		frame.getContentPane().add(t5);
 		
 		t6 = new JTextField();
+		t6.setText("0");
 		t6.setColumns(10);
 		t6.setBounds(157, 309, 96, 27);
 		frame.getContentPane().add(t6);
 		
 		t2 = new JTextField();
+		t2.setText("0");
 		t2.setColumns(10);
 		t2.setBounds(157, 143, 96, 27);
 		frame.getContentPane().add(t2);
 		
 		t7 = new JTextField();
+		t7.setText("0");
 		t7.setColumns(10);
 		t7.setBounds(459, 101, 96, 27);
 		frame.getContentPane().add(t7);
 		
 		t8 = new JTextField();
+		t8.setText("0");
 		t8.setColumns(10);
 		t8.setBounds(459, 141, 96, 27);
 		frame.getContentPane().add(t8);
 		
 		t9 = new JTextField();
+		t9.setText("0");
 		t9.setColumns(10);
 		t9.setBounds(459, 183, 96, 27);
 		frame.getContentPane().add(t9);
 		
 		t10 = new JTextField();
+		t10.setText("0");
 		t10.setColumns(10);
 		t10.setBounds(459, 225, 96, 27);
 		frame.getContentPane().add(t10);
 		
 		t11 = new JTextField();
+		t11.setText("0");
 		t11.setColumns(10);
 		t11.setBounds(459, 267, 96, 27);
 		frame.getContentPane().add(t11);
 		
 		t12 = new JTextField();
+		t12.setText("0");
 		t12.setColumns(10);
 		t12.setBounds(459, 309, 96, 27);
 		frame.getContentPane().add(t12);
 		
 		t13 = new JTextField();
+		t13.setText("0");
 		t13.setColumns(10);
 		t13.setBounds(764, 101, 96, 27);
 		frame.getContentPane().add(t13);
 		
 		t14 = new JTextField();
+		t14.setText("0");
 		t14.setColumns(10);
 		t14.setBounds(764, 141, 96, 27);
 		frame.getContentPane().add(t14);
 		
 		t15 = new JTextField();
+		t15.setText("0");
 		t15.setColumns(10);
 		t15.setBounds(764, 183, 96, 27);
 		frame.getContentPane().add(t15);
 		
 		t16 = new JTextField();
+		t16.setText("0");
 		t16.setColumns(10);
 		t16.setBounds(764, 225, 96, 27);
 		frame.getContentPane().add(t16);
 		
 		t17 = new JTextField();
+		t17.setText("0");
 		t17.setColumns(10);
 		t17.setBounds(764, 267, 96, 27);
 		frame.getContentPane().add(t17);
 		
 		t18 = new JTextField();
+		t18.setText("0");
 		t18.setColumns(10);
 		t18.setBounds(764, 309, 96, 27);
 		frame.getContentPane().add(t18);
@@ -262,13 +280,15 @@ public class peanutprocess {
 			     double njp1 = Math.exp(nju)/(1+Math.exp(nju));
 			     double njp2 = 1/(1+Math.exp(nju));
 			     double njp = njp2- njp1 ;
-			     if ( njp >0.33){
+			    if ( njp >0.33){
 			    	 r3.setText("  “À");
-			    }else if( -0.33 < njp | njp < 0.33){
+			    }else if( -0.33 < njp & njp < 0.33){
 			    	r3.setText("ª˘±æ  “À");
 			    }else{
 			    	r3.setText("≤ª  “À");
 			     }
+		      
+			     
 			     //rongjie   
 			     double rju = -100.2 - 0.0370* dt6*dt6- 1.5610*dt9+0.004978/(dt14*dt14)-
 			            309.5/(dt15*dt15)+7.0861*dt14/(dt6)-2.9472*dt12*dt17+
@@ -278,7 +298,7 @@ public class peanutprocess {
 			     double rjp = rjp2- rjp1 ;
 			     if ( rjp >0.33){
 			    	 r4.setText("  “À");
-			    }else if( -0.33 < rjp | rjp < 0.33){
+			    }else if( -0.33 < rjp & rjp < 0.33){
 			    	r4.setText("ª˘±æ  “À");
 			    }else{
 			    	r4.setText("≤ª  “À");
@@ -437,7 +457,7 @@ public class peanutprocess {
 		r4.setBounds(576, 483, 96, 27);
 		frame.getContentPane().add(r4);
 		
-		label_4 = new JLabel("\u82B1\u751F\u52A0\u5DE5\u9002\u5E94\u6027\u8BC4\u4EF7");
+		label_4 = new JLabel("\u82B1\u751F\u52A0\u5DE5\u9002\u5B9C\u6027\u8BC4\u4EF7");
 		label_4.setForeground(new Color(0, 0, 0));
 		label_4.setHorizontalAlignment(SwingConstants.CENTER);
 		label_4.setFont(new Font("ÀŒÃÂ", Font.BOLD, 30));
