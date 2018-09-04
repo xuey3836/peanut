@@ -95,7 +95,7 @@ public class peanut {
 		frame.setTitle("\u82B1\u751F\u52A0\u5DE5\u9002\u5B9C\u6027\u8BC4\u4EF7");
 		frame.getContentPane().setForeground(Color.BLUE);
 		frame.getContentPane().setBackground(SystemColor.menu);
-		frame.setBounds(100, 100, 940, 585);
+		frame.setBounds(100, 100, 870, 547);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 
@@ -107,7 +107,7 @@ public class peanut {
 		
 		t3 = new JTextField();
 		t3.setColumns(10);
-		t3.setBounds(157, 183, 96, 27);
+		t3.setBounds(429, 185, 96, 27);
 		frame.getContentPane().add(t3);
 		
 		t4 = new JTextField();
@@ -117,77 +117,77 @@ public class peanut {
 		
 		t5 = new JTextField();
 		t5.setColumns(10);
-		t5.setBounds(157, 269, 96, 27);
+		t5.setBounds(701, 185, 96, 27);
 		frame.getContentPane().add(t5);
 		
 		t6 = new JTextField();
 		t6.setColumns(10);
-		t6.setBounds(157, 309, 96, 27);
+		t6.setBounds(701, 309, 96, 27);
 		frame.getContentPane().add(t6);
 		
 		t2 = new JTextField();
 		t2.setColumns(10);
-		t2.setBounds(157, 143, 96, 27);
+		t2.setBounds(429, 101, 96, 27);
 		frame.getContentPane().add(t2);
 		
 		t7 = new JTextField();
 		t7.setColumns(10);
-		t7.setBounds(459, 101, 96, 27);
+		t7.setBounds(701, 143, 96, 27);
 		frame.getContentPane().add(t7);
 		
 		t8 = new JTextField();
 		t8.setColumns(10);
-		t8.setBounds(459, 141, 96, 27);
+		t8.setBounds(157, 309, 96, 27);
 		frame.getContentPane().add(t8);
 		
 		t9 = new JTextField();
 		t9.setColumns(10);
-		t9.setBounds(459, 183, 96, 27);
+		t9.setBounds(429, 227, 96, 27);
 		frame.getContentPane().add(t9);
 		
 		t10 = new JTextField();
 		t10.setColumns(10);
-		t10.setBounds(459, 225, 96, 27);
+		t10.setBounds(701, 101, 96, 27);
 		frame.getContentPane().add(t10);
 		
 		t11 = new JTextField();
 		t11.setColumns(10);
-		t11.setBounds(459, 267, 96, 27);
+		t11.setBounds(429, 143, 96, 27);
 		frame.getContentPane().add(t11);
 		
 		t12 = new JTextField();
 		t12.setColumns(10);
-		t12.setBounds(459, 309, 96, 27);
+		t12.setBounds(701, 227, 96, 27);
 		frame.getContentPane().add(t12);
 		
 		t13 = new JTextField();
 		t13.setColumns(10);
-		t13.setBounds(764, 101, 96, 27);
+		t13.setBounds(157, 141, 96, 27);
 		frame.getContentPane().add(t13);
 		
 		t14 = new JTextField();
 		t14.setColumns(10);
-		t14.setBounds(764, 141, 96, 27);
+		t14.setBounds(157, 269, 96, 27);
 		frame.getContentPane().add(t14);
 		
 		t15 = new JTextField();
 		t15.setColumns(10);
-		t15.setBounds(764, 183, 96, 27);
+		t15.setBounds(429, 309, 96, 27);
 		frame.getContentPane().add(t15);
 		
 		t16 = new JTextField();
 		t16.setColumns(10);
-		t16.setBounds(764, 225, 96, 27);
+		t16.setBounds(429, 269, 96, 27);
 		frame.getContentPane().add(t16);
 		
 		t17 = new JTextField();
 		t17.setColumns(10);
-		t17.setBounds(764, 267, 96, 27);
+		t17.setBounds(701, 267, 96, 27);
 		frame.getContentPane().add(t17);
 		
 		t18 = new JTextField();
 		t18.setColumns(10);
-		t18.setBounds(764, 309, 96, 27);
+		t18.setBounds(157, 183, 96, 27);
 		frame.getContentPane().add(t18);
 		
 		button = new JButton("\u8BA1\u7B97");
@@ -344,11 +344,11 @@ public class peanut {
 			}
 		});
 		button.setForeground(Color.BLUE);
-		button.setBounds(253, 369, 123, 29);
+		button.setBounds(242, 351, 123, 29);
 		frame.getContentPane().add(button);
 		
 		r1 = new JTextField();
-		r1.setBounds(330, 428, 96, 27);
+		r1.setBounds(225, 404, 96, 27);
 		frame.getContentPane().add(r1);
 		r1.setColumns(10);
 		
@@ -361,13 +361,13 @@ public class peanut {
 		lblGg = new JLabel("\u542B\u6CB9\u91CF g/100g");
 		lblGg.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg.setBounds(46, 146, 93, 21);
+		lblGg.setBounds(321, 106, 93, 21);
 		frame.getContentPane().add(lblGg);
 		
 		lblMgkohg = new JLabel("\u9178\u4EF7 mgKOH/g");
 		lblMgkohg.setHorizontalAlignment(SwingConstants.CENTER);
 		lblMgkohg.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblMgkohg.setBounds(46, 186, 93, 21);
+		lblMgkohg.setBounds(321, 190, 93, 21);
 		frame.getContentPane().add(lblMgkohg);
 		
 		lblGg_1 = new JLabel("\u86CB\u767D\u8D28\u542B\u91CF g/100g");
@@ -379,127 +379,127 @@ public class peanut {
 		lblOl = new JLabel("O/L");
 		lblOl.setHorizontalAlignment(SwingConstants.CENTER);
 		lblOl.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblOl.setBounds(46, 272, 93, 21);
+		lblOl.setBounds(593, 190, 93, 21);
 		frame.getContentPane().add(lblOl);
 		
 		lblGg_2 = new JLabel("\u7C97\u7EA4\u7EF4 g/100g");
 		lblGg_2.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_2.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_2.setBounds(46, 312, 93, 21);
+		lblGg_2.setBounds(593, 314, 93, 21);
 		frame.getContentPane().add(lblGg_2);
 		
 		lblGg_3 = new JLabel("\u68D5\u6988\u9178 g/100g");
 		lblGg_3.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_3.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_3.setBounds(333, 104, 93, 21);
+		lblGg_3.setBounds(593, 148, 93, 21);
 		frame.getContentPane().add(lblGg_3);
 		
 		lblGg_4 = new JLabel("\u86CB\u6C28\u9178 g/100g");
 		lblGg_4.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_4.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_4.setBounds(333, 146, 93, 21);
+		lblGg_4.setBounds(46, 314, 93, 21);
 		frame.getContentPane().add(lblGg_4);
 		
 		lblGg_5 = new JLabel("\u7CBE\u6C28\u9178 g/100g");
 		lblGg_5.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_5.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_5.setBounds(333, 186, 93, 21);
+		lblGg_5.setBounds(321, 232, 93, 21);
 		frame.getContentPane().add(lblGg_5);
 		
 		lblGg_6 = new JLabel("\u6CB9\u9178 g/100g");
 		lblGg_6.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_6.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_6.setBounds(333, 230, 93, 21);
+		lblGg_6.setBounds(593, 106, 93, 21);
 		frame.getContentPane().add(lblGg_6);
 		
 		lblGg_7 = new JLabel("\u4E0D\u9971\u548C\u8102\u80AA\u9178 g/100g");
 		lblGg_7.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_7.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_7.setBounds(292, 272, 134, 21);
+		lblGg_7.setBounds(280, 148, 134, 21);
 		frame.getContentPane().add(lblGg_7);
 		
 		lblGg_8 = new JLabel("\u5929\u95E8\u51AC\u6C28\u9178 g/100g");
 		lblGg_8.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_8.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_8.setBounds(302, 312, 124, 21);
+		lblGg_8.setBounds(561, 232, 124, 21);
 		frame.getContentPane().add(lblGg_8);
 		
 		lblGg_9 = new JLabel("\u4E9A\u6CB9\u9178 g/100g");
 		lblGg_9.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_9.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_9.setBounds(635, 104, 93, 21);
+		lblGg_9.setBounds(46, 146, 93, 21);
 		frame.getContentPane().add(lblGg_9);
 		
 		lblGg_10 = new JLabel("\u82CF\u6C28\u9178 g/100g");
 		lblGg_10.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_10.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_10.setBounds(635, 146, 93, 21);
+		lblGg_10.setBounds(46, 272, 93, 21);
 		frame.getContentPane().add(lblGg_10);
 		
 		lblGg_11 = new JLabel("\u8C37\u6C28\u9178 g/100g");
 		lblGg_11.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_11.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_11.setBounds(635, 186, 93, 21);
+		lblGg_11.setBounds(321, 314, 93, 21);
 		frame.getContentPane().add(lblGg_11);
 		
 		lblGg_12 = new JLabel("\u5F02\u4EAE\u6C28\u9178 g/100g");
 		lblGg_12.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_12.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_12.setBounds(605, 230, 123, 21);
+		lblGg_12.setBounds(301, 274, 123, 21);
 		frame.getContentPane().add(lblGg_12);
 		
 		lblGg_13 = new JLabel("\u4EAE\u6C28\u9178 g/100g");
 		lblGg_13.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_13.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_13.setBounds(635, 272, 93, 21);
+		lblGg_13.setBounds(593, 274, 93, 21);
 		frame.getContentPane().add(lblGg_13);
 		
 		lblGg_14 = new JLabel("\u82B1\u751F\u9178 g/100g");
 		lblGg_14.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGg_14.setFont(new Font("宋体", Font.PLAIN, 13));
-		lblGg_14.setBounds(635, 312, 93, 21);
+		lblGg_14.setBounds(46, 190, 93, 21);
 		frame.getContentPane().add(lblGg_14);
 		
 		label = new JLabel("\u82B1\u751F\u6CB9");
 		label.setHorizontalAlignment(SwingConstants.CENTER);
-		label.setBounds(207, 431, 81, 21);
+		label.setBounds(146, 407, 81, 21);
 		frame.getContentPane().add(label);
 		
 		r2 = new JTextField();
 		r2.setColumns(10);
-		r2.setBounds(632, 428, 96, 27);
+		r2.setBounds(593, 404, 96, 27);
 		frame.getContentPane().add(r2);
 		
 		label_1 = new JLabel("\u82B1\u751F\u9171");
 		label_1.setHorizontalAlignment(SwingConstants.CENTER);
-		label_1.setBounds(505, 431, 81, 21);
+		label_1.setBounds(508, 407, 81, 21);
 		frame.getContentPane().add(label_1);
 		
 		label_2 = new JLabel("\u51DD\u80F6\u6027");
 		label_2.setHorizontalAlignment(SwingConstants.CENTER);
-		label_2.setBounds(207, 486, 81, 21);
+		label_2.setBounds(146, 446, 81, 21);
 		frame.getContentPane().add(label_2);
 		
 		r3 = new JTextField();
 		r3.setColumns(10);
-		r3.setBounds(330, 483, 96, 27);
+		r3.setBounds(225, 443, 96, 27);
 		frame.getContentPane().add(r3);
 		
 		label_3 = new JLabel("\u6EB6\u89E3\u6027");
 		label_3.setHorizontalAlignment(SwingConstants.CENTER);
-		label_3.setBounds(505, 486, 81, 21);
+		label_3.setBounds(508, 443, 81, 21);
 		frame.getContentPane().add(label_3);
 		
 		r4 = new JTextField();
 		r4.setColumns(10);
-		r4.setBounds(632, 483, 96, 27);
+		r4.setBounds(593, 440, 96, 27);
 		frame.getContentPane().add(r4);
 		
 		label_4 = new JLabel("\u82B1\u751F\u52A0\u5DE5\u9002\u5B9C\u6027\u8BC4\u4EF7");
 		label_4.setForeground(new Color(0, 0, 0));
 		label_4.setHorizontalAlignment(SwingConstants.CENTER);
 		label_4.setFont(new Font("宋体", Font.BOLD, 30));
-		label_4.setBounds(263, 15, 367, 56);
+		label_4.setBounds(225, 15, 367, 56);
 		frame.getContentPane().add(label_4);
 		
 		JButton btnNewButton = new JButton("\u91CD\u7F6E");
@@ -531,7 +531,7 @@ public class peanut {
 		});
 		btnNewButton.setForeground(Color.BLUE);
 		btnNewButton.setFont(new Font("宋体", Font.PLAIN, 22));
-		btnNewButton.setBounds(560, 369, 123, 29);
+		btnNewButton.setBounds(498, 351, 123, 29);
 		frame.getContentPane().add(btnNewButton);
 	}
 }
